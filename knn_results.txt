@@ -1,0 +1,18 @@
+
+Best Parameters: {'model__n_neighbors': 7, 'model__weights': 'distance'}
+Best CV ROC-AUC: 0.8000
+Accuracy: 0.8085
+F1 Score: 0.7334
+ROC-AUC: 0.8786
+PR-AUC: 0.8387
+
+Classification Report:
+               precision    recall  f1-score   support
+
+Not Cancelled       0.84      0.87      0.85     15033
+    Cancelled       0.76      0.71      0.73      8845
+
+     accuracy                           0.81     23878
+    macro avg       0.80      0.79      0.79     23878
+ weighted avg       0.81      0.81      0.81     23878
+
